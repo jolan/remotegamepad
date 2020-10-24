@@ -12,7 +12,7 @@ to mimic a Nintendo Switch Pro Controller by using a Raspberry Pi as a relay.
 * Remote Gamepad provides some glue between the two by setting up button mapping and sending a stream of controller data to the Raspberry Pi which in turn will relay it to the Switch via USB.
 
 If you have a capture card and a low latency way to share the video stream, you
-can game with friends who don't have a Switch over the Internet.  Map/redirect a
+can game with friends who don't have a Switch over the internet.  Map/redirect a
 port on your router/gateway to port 8085 on your Raspberry Pi and have your
 friend connect to it with their browser.
 
@@ -89,7 +89,7 @@ Finally, enter the URL to your Raspberry Pi (e.g. http://192.0.2.53:8085) into y
 * Code cleanup.
 * Add mouse/keyboard support.
 * Test on non-Chrome browsers to check for bugs/quirks.
-* Determine if multiple controllers-on-a-single is possible.
+* Determine if multiple controllers-on-a-single PC is possible.
 * Add audio/video streaming support.
 * Maybe support consoles other than the Switch one day.
 
