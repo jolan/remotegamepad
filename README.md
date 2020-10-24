@@ -53,7 +53,7 @@ If you're going to be using the setup long-term, a udev rule should be used inst
 
 Or get the source:
 
-    go get -u -v github.com/jolan/remotepamepad
+    go get -u -v github.com/jolan/remotegamepad
 
 And then build and run it:
 
