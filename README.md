@@ -31,8 +31,8 @@ Enable dwc2 USB controller driver
 
 Enable needed kernel modules
 
-    echo "dwc2" | sudo tee -a /etc/modules.d/dwc2.conf
-    echo "libcomposite" | sudo tee -a /etc/modules.d/libcomposite.conf
+    echo "dwc2" | sudo tee -a /etc/modules-load.d/dwc2.conf
+    echo "libcomposite" | sudo tee -a /etc/modules-load.d/libcomposite.conf
 
 Reboot for changes to take effect
 
